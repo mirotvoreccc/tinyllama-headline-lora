@@ -1,0 +1,15 @@
+{
+  "base_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "dataset": "azminetoushikwasi/news-headlines-CC-FF",
+  "train_rows": 2000,
+  "validation_rows": 200,
+  "test_rows_reserved": 200,
+  "seed": 42,
+  "max_steps": 200,
+  "best_validation_loss": 1.7174193859100342,
+  "base_model_revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "dataset_revision": "0b3d4744cfcfba544baea13733c923fdfd0b5fc3",
+  "gradient_accumulation_steps": 4,
+  "per_device_train_batch_size": 1,
+  "approximate_training_examples_seen": 800
+}
